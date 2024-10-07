@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #444;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            width: 30%;
+        }
+
+        .product h3 {
+            color: #ff5733;
+        }
+
+        .product p {
+            margin: 15px 0;
+        }
+
+        .product button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .product button:hover {
+            background-color: #0056b3;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            padding: 15px;
+        }
+
+        .navbar a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: #ff5733;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#">PRODUCTS</a>
+        <a href="#">DISCOUNTS</a>
+        <a href="#">OUR PARTNERS</a>
+        <a href="#">ABOUT US</a>
+    </div>
+
+    <div class="container">
+        <div class="product">
+            <h3>MATTE</h3>
+            <p>A subtle but elegant finish for low-touch and delicate surfaces.</p>
+            <button>Explore</button>
+        </div>
+
+        <div class="product">
+            <h3>SEMI-GLOSS</h3>
+            <p>Our signature finish for high-wear parts, details, and surfaces.</p>
+            <button>Explore</button>
+        </div>
+
+        <div class="product">
+            <h3>HIGH-GLOSS</h3>
+            <p>An eye-stopping shine best for metal and other smooth surfaces.</p>
+            <button>Explore</button>
+        </div>
+    </div>
+
+</body>
+</html>
